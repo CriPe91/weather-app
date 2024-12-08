@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Form, Button, InputGroup, FormControl, Container, Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
-const Homepage = () => {
+const Home = () => {
   const [city, setCity] = useState("");
   const navigate = useNavigate();
 
@@ -48,4 +48,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Home;
